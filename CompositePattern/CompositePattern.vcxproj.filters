@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="BridgePattern.cpp">
+    <ClCompile Include="CompositePattern.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

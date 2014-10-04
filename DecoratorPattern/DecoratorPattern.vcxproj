@@ -11,9 +11,9 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{07800D56-D1F1-49D3-BD99-D4C6336F48AF}</ProjectGuid>
+    <ProjectGuid>{07177BDC-13CD-4931-AB86-C6748F1B9ECA}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>BridgePattern</RootNamespace>
+    <RootNamespace>DecoratorPattern</RootNamespace>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -76,7 +76,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="BridgePattern.cpp" />
+    <ClCompile Include="DecoratorPattern.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
