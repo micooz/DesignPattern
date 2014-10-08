@@ -31,7 +31,6 @@ public:
     }
 };
 
-
 class Person {
 public:
     Person(Mediator*md):_md(md) { }
