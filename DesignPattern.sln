@@ -45,6 +45,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "VisitorPattern", "VisitorPa
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ChainOfResponsibilityPattern", "ChainOfResponsibilityPattern\ChainOfResponsibilityPattern.vcxproj", "{6EFCBABA-47B7-4209-A463-7D5128D46B2D}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "IteratorPattern", "IteratorPattern\IteratorPattern.vcxproj", "{EE079CA8-B725-4D1B-AC3D-0F3228268767}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "InterpreterPattern", "InterpreterPattern\InterpreterPattern.vcxproj", "{BB4E709E-915E-4709-9636-5B882F31814C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -135,6 +139,14 @@ Global
 		{6EFCBABA-47B7-4209-A463-7D5128D46B2D}.Debug|Win32.Build.0 = Debug|Win32
 		{6EFCBABA-47B7-4209-A463-7D5128D46B2D}.Release|Win32.ActiveCfg = Release|Win32
 		{6EFCBABA-47B7-4209-A463-7D5128D46B2D}.Release|Win32.Build.0 = Release|Win32
+		{EE079CA8-B725-4D1B-AC3D-0F3228268767}.Debug|Win32.ActiveCfg = Debug|Win32
+		{EE079CA8-B725-4D1B-AC3D-0F3228268767}.Debug|Win32.Build.0 = Debug|Win32
+		{EE079CA8-B725-4D1B-AC3D-0F3228268767}.Release|Win32.ActiveCfg = Release|Win32
+		{EE079CA8-B725-4D1B-AC3D-0F3228268767}.Release|Win32.Build.0 = Release|Win32
+		{BB4E709E-915E-4709-9636-5B882F31814C}.Debug|Win32.ActiveCfg = Debug|Win32
+		{BB4E709E-915E-4709-9636-5B882F31814C}.Debug|Win32.Build.0 = Debug|Win32
+		{BB4E709E-915E-4709-9636-5B882F31814C}.Release|Win32.ActiveCfg = Release|Win32
+		{BB4E709E-915E-4709-9636-5B882F31814C}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -27,7 +27,7 @@ public:
     }
 
     void Operation(const string& state) {
-        cout << "ConcreteFlyweight " << GetState() << " \ " << state << endl;
+        cout << "ConcreteFlyweight " << GetState() << " \\ " << state << endl;
     }
 };
 
