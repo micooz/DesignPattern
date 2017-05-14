@@ -10,4 +10,18 @@
 
 *NOTE：源代码经过简化，移除了一些不必要的构造和析构函数，方便阅读*
 
-**编译器**：Visual Studio 2013(MSVC 12)
+# 编译
+
+## Visual Studio 2013(MSVC 12)
+使用 Visual Studio 导入项目即可编译
+
+## Linux or Mac OSX
+Linux 或 Mac OSX 环境使用 cmake 编译
+
+```bash
+$ cd /path/to/project
+$ mkdir build
+$ cd build
+$ cmake ..
+$ make
+```
