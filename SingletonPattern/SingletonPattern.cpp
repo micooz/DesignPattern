@@ -16,6 +16,8 @@ private:
     Singleton() {
         cout << "ctor" << endl;
     }
+
+    Singleton(const Singleton &another) {}
 };
 
 
