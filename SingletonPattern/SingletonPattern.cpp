@@ -8,25 +8,18 @@ public:
         return instance;
     }
 
-    void printInstanceAddr() {
-        cout << this << endl;
-    }
-
 private:
-    Singleton() {
-        cout << "ctor" << endl;
-    }
-
+    Singleton() {}
     Singleton(const Singleton &another) {}
 };
 
 
 int main() {
     Singleton &singleton1 = Singleton::Instance();
-    singleton1.printInstanceAddr();
-
     Singleton &singleton2 = Singleton::Instance();
-    singleton2.printInstanceAddr();
-
+    
+    cout << &singleton1 << endl;
+    cout << &singleton2 << endl;
+    
     return 0;
 }
