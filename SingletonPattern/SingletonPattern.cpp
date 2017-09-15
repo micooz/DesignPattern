@@ -3,25 +3,23 @@ using namespace std;
 
 class Singleton {
 public:
-    static Singleton* Instance() {
-        if (!_instance) {
-            _instance = new Singleton();
-        }
-        return _instance;
+    static Singleton& Instance() {
+        static Singleton instance;
+        return instance;
     }
+
 private:
-    Singleton() { cout << "Singleton..." << endl; }
-    static Singleton* _instance;
+    Singleton() {}
+    Singleton(const Singleton &another) {}
 };
-Singleton* Singleton::_instance = nullptr;
+
 
 int main() {
-    Singleton *singleton1 = Singleton::Instance();
-    cout << singleton1 << endl;
-    Singleton *singleton2 = Singleton::Instance();
-    cout << singleton2 << endl;
-
-    delete Singleton::Instance();
-
+    Singleton &singleton1 = Singleton::Instance();
+    Singleton &singleton2 = Singleton::Instance();
+    
+    cout << &singleton1 << endl;
+    cout << &singleton2 << endl;
+    
     return 0;
 }
